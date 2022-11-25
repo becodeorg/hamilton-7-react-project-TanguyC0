@@ -1,11 +1,12 @@
 import React, {Fragment} from "react";
 import "./App.css";
+import Home from "./features/vue/home";
 
 function App() {
-    const tmp = "Hello World";
+    // const tmp = "Hello World";
     return (
         <Fragment>
-            <h1>{tmp}</h1>
+            <Home />
         </Fragment>
     );
 }

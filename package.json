@@ -1,61 +1,38 @@
 {
-  "name": "my-app",
-  "version": "0.1.0",
+  "name": "tttt",
   "private": true,
-  "dependencies": {
-    "@reduxjs/toolkit": "^1.9.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^14.4.3",
-    "axios": "^1.2.0",
-    "framer-motion": "^7.6.10",
-    "localforage": "^1.10.0",
-    "match-sorter": "^6.3.1",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-is": "16.8",
-    "react-redux": "^8.0.5",
-    "react-router-dom": "^6.4.3",
-    "react-scripts": "5.0.1",
-    "sort-by": "^1.2.0",
-    "styled-components": "^5.0.0",
-    "web-vitals": "^2.1.4"
- },
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
- },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
- },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
- },
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "daisyui": "^2.42.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.9.3"
+  },
   "devDependencies": {
     "@becode/eslint-config": "^0.13.0",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "autoprefixer": "^10.4.13",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.28.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
-    "eslint-plugin-unicorn": "^45.0.0",
+    "eslint-plugin-unicorn": "^45.0.1",
     "husky": "^8.0.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.8.0"
- },
+    "lint-staged": "^13.0.4",
+    "postcss": "^8.4.19",
+    "prettier": "^2.8.0",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.2.3"
+  },
   "lint-staged": {
     "*.json": [
       "npx prettier --write"
@@ -63,10 +40,10 @@
     "*.js": [
       "npx eslint --fix --cache"
     ]
- },
+  },
   "husky": {
     "hooks": {
       "pre-commit": "npx lint-staged"
-   }
- }
+    }
+  }
 }

@@ -9,7 +9,7 @@
             "files": "*.json",
             "options": {
                 "tabWidth": 2
-           }
-       }
+            }
+        }
     ]
 }
